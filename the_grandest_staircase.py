@@ -17,7 +17,7 @@ def answer(n):
 
 		
 		x = combinations(list(range(1,n)), i)
-		print ('test even', len(list(x))/(n-2)/3)
+		print ('test odd', len(list(x))/(n-2))
 		print len(list(x))
 		if length > 0:
 			summ += length
